@@ -20,6 +20,7 @@
 		A29A2BC21E3F7AEE00E0B49A /* ABAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BC01E3F7AEE00E0B49A /* ABAPIClient.swift */; };
 		C72920FF3CBE131FE8F7C8E2 /* Pods_ADS_B_ARUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3110B53FBA689304A0312952 /* Pods_ADS_B_ARUITests.framework */; };
 		D969DC5BDEF48CD1C1370256 /* Pods_ADS_B_AR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3806E6FC6E336250822D84 /* Pods_ADS_B_AR.framework */; };
+		E15A7BD01E404BF100141D6C /* ABCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A7BCF1E404BF100141D6C /* ABCommon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		BFCC105F88546B7F9D0E7749 /* Pods-ADS-B_ARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADS-B_ARTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADS-B_ARTests/Pods-ADS-B_ARTests.release.xcconfig"; sourceTree = "<group>"; };
 		C18A6C0DFA6FC8BE9661B6B8 /* Pods-ADS-B_ARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADS-B_ARUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADS-B_ARUITests/Pods-ADS-B_ARUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D6586ACE5C186A1C26388AA5 /* Pods-ADS-B_ARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADS-B_ARTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADS-B_ARTests/Pods-ADS-B_ARTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E15A7BCF1E404BF100141D6C /* ABCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABCommon.swift; sourceTree = "<group>"; };
 		E8E90069C4AA0E1832409BA9 /* Pods-ADS-B_AR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADS-B_AR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADS-B_AR/Pods-ADS-B_AR.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				A29A2BC01E3F7AEE00E0B49A /* ABAPIClient.swift */,
+				E15A7BCF1E404BF100141D6C /* ABCommon.swift */,
 			);
 			name = APIClient;
 			sourceTree = "<group>";
@@ -497,6 +500,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A29A2B8D1E3F6B8A00E0B49A /* ViewController.swift in Sources */,
+				E15A7BD01E404BF100141D6C /* ABCommon.swift in Sources */,
 				A29A2BC11E3F7AEE00E0B49A /* ABAPIClient.swift in Sources */,
 				A29A2B931E3F6B8A00E0B49A /* ADS_B_AR.xcdatamodeld in Sources */,
 				A29A2B8B1E3F6B8A00E0B49A /* AppDelegate.swift in Sources */,
@@ -755,6 +759,7 @@
 				A29A2BB41E3F6B8A00E0B49A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A29A2BB51E3F6B8A00E0B49A /* Build configuration list for PBXNativeTarget "ADS-B_ARTests" */ = {
 			isa = XCConfigurationList;
@@ -763,6 +768,7 @@
 				A29A2BB71E3F6B8A00E0B49A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A29A2BB81E3F6B8A00E0B49A /* Build configuration list for PBXNativeTarget "ADS-B_ARUITests" */ = {
 			isa = XCConfigurationList;
@@ -771,6 +777,7 @@
 				A29A2BBA1E3F6B8A00E0B49A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
