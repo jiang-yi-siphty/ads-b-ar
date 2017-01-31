@@ -1,0 +1,32 @@
+PODS:
+  - Bond (5.4.0):
+    - Diff (~> 0.4)
+    - ReactiveKit (~> 3.1.2)
+  - Crashlytics (3.8.3):
+    - Fabric (~> 1.6.3)
+  - Diff (0.5.0)
+  - Fabric (1.6.11)
+  - ReactiveKit (3.1.2)
+  - SnapKit (3.1.2)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - Bond
+  - Crashlytics
+  - Fabric
+  - ReactiveKit
+  - SnapKit
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Bond: fa3800ee800198efe09dd63a9f94a339cee9dc85
+  Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
+  Diff: eceb93a3adf508574ba9b8560da185ace83de055
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  ReactiveKit: fcd80a87ac9548f11dc33ace1042022c9eb7d01c
+  SnapKit: 12b24f569cb7c143acc9c22b9d91b23e7b1c84a2
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: 42720ed27f0ce0f51db30ee4c382c75bbc16bc46
+
+COCOAPODS: 1.1.1

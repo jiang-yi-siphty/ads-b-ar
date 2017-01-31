@@ -1,0 +1,6 @@
+framework module Pods_ADS_B_ARTests {
+  umbrella header "Pods-ADS-B_ARTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
