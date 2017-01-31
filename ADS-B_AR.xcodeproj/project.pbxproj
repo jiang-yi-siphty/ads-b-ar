@@ -18,6 +18,23 @@
 		A29A2BAE1E3F6B8A00E0B49A /* ADS_B_ARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BAD1E3F6B8A00E0B49A /* ADS_B_ARUITests.swift */; };
 		A29A2BC11E3F7AEE00E0B49A /* ABAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BC01E3F7AEE00E0B49A /* ABAPIClient.swift */; };
 		A29A2BC21E3F7AEE00E0B49A /* ABAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BC01E3F7AEE00E0B49A /* ABAPIClient.swift */; };
+		A29A2BC51E40AA2F00E0B49A /* ABSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BC41E40AA2F00E0B49A /* ABSingleton.swift */; };
+		A29A2BC71E40C53300E0B49A /* ABAircraftViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BC61E40C53300E0B49A /* ABAircraftViewModel.swift */; };
+		A29A2BC81E40C53300E0B49A /* ABAircraftViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BC61E40C53300E0B49A /* ABAircraftViewModel.swift */; };
+		A29A2BCA1E40C58200E0B49A /* ABOperatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BC91E40C58200E0B49A /* ABOperatorViewModel.swift */; };
+		A29A2BCB1E40C58200E0B49A /* ABOperatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BC91E40C58200E0B49A /* ABOperatorViewModel.swift */; };
+		A29A2BCD1E40C5CB00E0B49A /* ABDroneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BCC1E40C5CB00E0B49A /* ABDroneViewModel.swift */; };
+		A29A2BCE1E40C5CB00E0B49A /* ABDroneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BCC1E40C5CB00E0B49A /* ABDroneViewModel.swift */; };
+		A29A2BD01E40CA7400E0B49A /* ABAerodromeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BCF1E40CA7400E0B49A /* ABAerodromeViewModel.swift */; };
+		A29A2BD11E40CA7400E0B49A /* ABAerodromeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BCF1E40CA7400E0B49A /* ABAerodromeViewModel.swift */; };
+		A29A2BD61E40CB9900E0B49A /* ABAircraftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BD51E40CB9900E0B49A /* ABAircraftModel.swift */; };
+		A29A2BD71E40CB9900E0B49A /* ABAircraftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BD51E40CB9900E0B49A /* ABAircraftModel.swift */; };
+		A29A2BD91E40CBB200E0B49A /* ABOperatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BD81E40CBB200E0B49A /* ABOperatorModel.swift */; };
+		A29A2BDA1E40CBB200E0B49A /* ABOperatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BD81E40CBB200E0B49A /* ABOperatorModel.swift */; };
+		A29A2BDC1E40CBC200E0B49A /* ABDroneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BDB1E40CBC200E0B49A /* ABDroneModel.swift */; };
+		A29A2BDD1E40CBC200E0B49A /* ABDroneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BDB1E40CBC200E0B49A /* ABDroneModel.swift */; };
+		A29A2BDF1E40CBFF00E0B49A /* ABAerodromeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BDE1E40CBFF00E0B49A /* ABAerodromeModel.swift */; };
+		A29A2BE01E40CBFF00E0B49A /* ABAerodromeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A2BDE1E40CBFF00E0B49A /* ABAerodromeModel.swift */; };
 		C72920FF3CBE131FE8F7C8E2 /* Pods_ADS_B_ARUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3110B53FBA689304A0312952 /* Pods_ADS_B_ARUITests.framework */; };
 		D969DC5BDEF48CD1C1370256 /* Pods_ADS_B_AR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3806E6FC6E336250822D84 /* Pods_ADS_B_AR.framework */; };
 		E15A7BD01E404BF100141D6C /* ABCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A7BCF1E404BF100141D6C /* ABCommon.swift */; };
@@ -61,6 +78,15 @@
 		A29A2BAD1E3F6B8A00E0B49A /* ADS_B_ARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADS_B_ARUITests.swift; sourceTree = "<group>"; };
 		A29A2BAF1E3F6B8A00E0B49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A29A2BC01E3F7AEE00E0B49A /* ABAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABAPIClient.swift; sourceTree = "<group>"; };
+		A29A2BC41E40AA2F00E0B49A /* ABSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSingleton.swift; sourceTree = "<group>"; };
+		A29A2BC61E40C53300E0B49A /* ABAircraftViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABAircraftViewModel.swift; sourceTree = "<group>"; };
+		A29A2BC91E40C58200E0B49A /* ABOperatorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABOperatorViewModel.swift; sourceTree = "<group>"; };
+		A29A2BCC1E40C5CB00E0B49A /* ABDroneViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABDroneViewModel.swift; sourceTree = "<group>"; };
+		A29A2BCF1E40CA7400E0B49A /* ABAerodromeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABAerodromeViewModel.swift; sourceTree = "<group>"; };
+		A29A2BD51E40CB9900E0B49A /* ABAircraftModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABAircraftModel.swift; sourceTree = "<group>"; };
+		A29A2BD81E40CBB200E0B49A /* ABOperatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABOperatorModel.swift; sourceTree = "<group>"; };
+		A29A2BDB1E40CBC200E0B49A /* ABDroneModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABDroneModel.swift; sourceTree = "<group>"; };
+		A29A2BDE1E40CBFF00E0B49A /* ABAerodromeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABAerodromeModel.swift; sourceTree = "<group>"; };
 		BFCC105F88546B7F9D0E7749 /* Pods-ADS-B_ARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADS-B_ARTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADS-B_ARTests/Pods-ADS-B_ARTests.release.xcconfig"; sourceTree = "<group>"; };
 		C18A6C0DFA6FC8BE9661B6B8 /* Pods-ADS-B_ARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADS-B_ARUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADS-B_ARUITests/Pods-ADS-B_ARUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D6586ACE5C186A1C26388AA5 /* Pods-ADS-B_ARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADS-B_ARTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADS-B_ARTests/Pods-ADS-B_ARTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -179,6 +205,10 @@
 		A29A2BBC1E3F7A2400E0B49A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A29A2BD51E40CB9900E0B49A /* ABAircraftModel.swift */,
+				A29A2BD81E40CBB200E0B49A /* ABOperatorModel.swift */,
+				A29A2BDB1E40CBC200E0B49A /* ABDroneModel.swift */,
+				A29A2BDE1E40CBFF00E0B49A /* ABAerodromeModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -186,6 +216,10 @@
 		A29A2BBD1E3F7A3400E0B49A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A29A2BC61E40C53300E0B49A /* ABAircraftViewModel.swift */,
+				A29A2BC91E40C58200E0B49A /* ABOperatorViewModel.swift */,
+				A29A2BCC1E40C5CB00E0B49A /* ABDroneViewModel.swift */,
+				A29A2BCF1E40CA7400E0B49A /* ABAerodromeViewModel.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -201,6 +235,7 @@
 		A29A2BBF1E3F7A6300E0B49A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				A29A2BC41E40AA2F00E0B49A /* ABSingleton.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -500,10 +535,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A29A2B8D1E3F6B8A00E0B49A /* ViewController.swift in Sources */,
+				A29A2BC71E40C53300E0B49A /* ABAircraftViewModel.swift in Sources */,
+				A29A2BC51E40AA2F00E0B49A /* ABSingleton.swift in Sources */,
+				A29A2BDC1E40CBC200E0B49A /* ABDroneModel.swift in Sources */,
+				A29A2BDF1E40CBFF00E0B49A /* ABAerodromeModel.swift in Sources */,
 				E15A7BD01E404BF100141D6C /* ABCommon.swift in Sources */,
 				A29A2BC11E3F7AEE00E0B49A /* ABAPIClient.swift in Sources */,
+				A29A2BCD1E40C5CB00E0B49A /* ABDroneViewModel.swift in Sources */,
 				A29A2B931E3F6B8A00E0B49A /* ADS_B_AR.xcdatamodeld in Sources */,
+				A29A2BD61E40CB9900E0B49A /* ABAircraftModel.swift in Sources */,
 				A29A2B8B1E3F6B8A00E0B49A /* AppDelegate.swift in Sources */,
+				A29A2BD01E40CA7400E0B49A /* ABAerodromeViewModel.swift in Sources */,
+				A29A2BD91E40CBB200E0B49A /* ABOperatorModel.swift in Sources */,
+				A29A2BCA1E40C58200E0B49A /* ABOperatorViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,8 +555,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A29A2BD71E40CB9900E0B49A /* ABAircraftModel.swift in Sources */,
 				A29A2BA31E3F6B8A00E0B49A /* ADS_B_ARTests.swift in Sources */,
 				A29A2BC21E3F7AEE00E0B49A /* ABAPIClient.swift in Sources */,
+				A29A2BCE1E40C5CB00E0B49A /* ABDroneViewModel.swift in Sources */,
+				A29A2BC81E40C53300E0B49A /* ABAircraftViewModel.swift in Sources */,
+				A29A2BDA1E40CBB200E0B49A /* ABOperatorModel.swift in Sources */,
+				A29A2BD11E40CA7400E0B49A /* ABAerodromeViewModel.swift in Sources */,
+				A29A2BCB1E40C58200E0B49A /* ABOperatorViewModel.swift in Sources */,
+				A29A2BDD1E40CBC200E0B49A /* ABDroneModel.swift in Sources */,
+				A29A2BE01E40CBFF00E0B49A /* ABAerodromeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
